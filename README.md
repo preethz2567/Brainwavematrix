@@ -39,13 +39,13 @@ To get this project up and running on your local machine, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/todo-list.git
+https://github.com/preethz2567/Brainwavematrix.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd todo-list
+cd Brainwavematrix
 ```
 
 ### 3. Open the Application
