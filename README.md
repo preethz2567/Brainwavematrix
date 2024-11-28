@@ -4,18 +4,6 @@
 **A vibrant, fully responsive to-do list application for managing your daily tasks.**
 
 
-## 📋 Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Key Features](#key-features)
-3. [Screenshots](#screenshots)
-4. [Getting Started](#getting-started)
-5. [Tech Stack](#tech-stack)
-6. [Project Structure](#project-structure)
-7. [Live Demo](#live-demo)
-8. [Contributing](#contributing)
-9. [License](#license)
-
 ## 📚 Project Overview
 
 This is a dynamic to-do list application that helps you manage your tasks effectively. With an elegant light theme and interactive features, this app provides a seamless user experience across devices, adapting to various screen sizes from desktops to mobile phones.
