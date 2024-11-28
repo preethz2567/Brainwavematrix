@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+<style>
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(100deg, #d4f1ff, #ffffff);
+    padding: 0;
+    display: flex;
+}
+
+/* Side Menu Styles */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    color: #fff;
+    display: block; /* Always display */
+}
+
+.profile-section {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.profile-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    float: left;
+}
+
+.profile-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-email {
+    font-size: 14px;
+    color: #818181;
+    margin-top: 5px;
+}
+
+.sidenav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.sidenav a:hover {
+    background-color: #575757;
+    color: #f1f1f1;
+}
+
+.sidenav .menu-item i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+.main-content {
+    margin-left: 250px; 
+    padding: 16px;
+    width: calc(100% - 250px); 
+}
+
+
+.home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.container-main {
+    height: 85vh;
+    border: 1px solid #666666;
+    width: 75%;
+    background-color:#e0f7ff;
+    border-radius: 12px;
+    -webkit-box-shadow: 9px 10px 28px 1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 9px 10px 28px 1px rgba(0, 0, 0, 0.31);
+    box-shadow: 9px 10px 28px 1px rgba(0, 0, 0, 0.31);
+    display: flex;
+
+}
+.container-left {
+    width: 25%;
+    position: relative;
+    border-right: 1px solid rgb(200, 200, 200);
+}
+
+.dots {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+    padding-top: 7px;
+    padding-left: 4px;
+}
+
+.dots div {
+    height: 10px;
+    border-radius: 50%;
+    width: 10px;
+    border: 1px solid #aaaaaa73;
+}
+.profile {
+    display: flex;
+    color: #3a3a3a;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile .name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile .email {
+    font-size: 10px;
+}
+
+.profile div {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile div  p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    color: #f1f1f1; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.todo-container {
+    background-image:linear-gradient(100deg, #575656, #062e3f);;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    width: 600px; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px; 
+    color: #E7E8E8; 
+    margin-bottom: 20px;
+}
+
+
+#taskInput {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+#taskInput:focus {
+    border-color: #ff5e00;
+}
+
+#addButton {
+    padding: 15px; 
+    background-color: white;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 85%;
+    font-size: 18px;
+}
+
+#addButton:hover {
+    background-color:aquamarine
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #444; 
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1f1f1;
+}
+
+li.completed {
+    background-color: #616161; 
+    text-decoration: line-through;
+    color: #888; 
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove button */
+button.remove-btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+button.remove-btn:hover {
+    background-color: #ff453a;
+}
+
+
+button.complete-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button.complete-btn:hover {
+    background-color: #45a049;
+}
+
+
