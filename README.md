@@ -76,6 +76,3 @@ This project is licensed under the [MIT License](LICENSE), which allows you to f
 
 ### Thank you for checking out the **Dynamic To-Do List**! 😊
 
----
-
-This structure should make your README more user-friendly, with clear navigation for users or developers who are interacting with the repository. Let me know if you need further adjustments!
